@@ -1,0 +1,87 @@
+/* style.css */
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #0074D9; /* Azul - Este será o novo estilo do cabeçalho */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 60px;
+    position: relative;
+}
+
+header h1.texto {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    display: inline;
+}
+
+header img {
+    max-width: 100px;
+    margin-right: 20px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+/* Estilo do botão de menu (inicialmente oculto) */
+button#menuBtn {
+    background-color: #0074D9; /* Azul - Este será o novo estilo do botão de menu */
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: absolute;
+    top: 10px;
+    right: -40px; /* Inicialmente fora do cabeçalho */
+    opacity: 0; /* Inicialmente invisível */
+    transition: right 0.3s, opacity 0.3s; /* Efeito de transição */
+}
+
+/* Exibir o botão de menu quando passar o mouse sobre o cabeçalho */
+header:hover button#menuBtn {
+    right: 20px; /* Posição quando passa o mouse sobre o cabeçalho */
+    opacity: 1; /* Torna visível */
+}
+
+/* Estilo da navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0074D9; /* Azul - Este será o novo estilo para os links de navegação */
+    font-weight: bold;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #0074D9; /* Azul - Este será o novo estilo para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

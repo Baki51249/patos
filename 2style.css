@@ -1,0 +1,43 @@
+h1 {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+/* Container para as imagens */
+div {
+    display: flex; /* Exibir as imagens em uma linha */
+}
+
+/* Estilos para as imagens */
+img {
+    display: inline-block;
+    margin: 5px; /* Espaçamento entre as imagens */
+}
+h2 {
+    background-color: #f1f1f1; /* Cor de fundo cinza */
+    padding: 5px; /* Espaçamento interno */
+}
+a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: blue; /* Cor do texto do link */
+}
+
+p {
+    text-align: justify; /* Justificar o texto */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+h3 {
+    background-color: #f1f1f1; /* Cor de fundo cinza */
+    padding: 5px; /* Espaçamento interno */
+}
+h4 {
+    background-color: #f1f1f1; /* Cor de fundo cinza */
+    padding: 5px; /* Espaçamento interno */
+}
+
+h5 {
+    margin-top: 20px; /* Espaçamento superior */
+    background-color: #f1f1f1; /* Cor de fundo cinza */
+    padding: 5px; /* Espaçamento interno */
+}
